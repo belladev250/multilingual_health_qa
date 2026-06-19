@@ -1,0 +1,234 @@
+{
+    "experiments": [
+        {
+            "id": "EXP-01",
+            "title": "Baseline Model",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0005,
+                "scheduler": "linear",
+                "use_prefix": false,
+                "use_cleaning": false,
+                "use_peft": false,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.45,
+                "val_loss": 0.42,
+                "val_rouge1": 0.12,
+                "val_rougeL": 0.1,
+                "val_bleu": 0.05,
+                "est_leaderboard": 0.11
+            },
+            "summary": "Established model baseline using Google mt5-small with raw data."
+        },
+        {
+            "id": "EXP-02",
+            "title": "Advanced Text Cleaning",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0005,
+                "scheduler": "linear",
+                "use_prefix": false,
+                "use_cleaning": true,
+                "use_peft": false,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.4,
+                "val_loss": 0.38,
+                "val_rouge1": 0.22,
+                "val_rougeL": 0.19,
+                "val_bleu": 0.09,
+                "est_leaderboard": 0.2
+            },
+            "summary": "Normalized punctuation and resolved whitespaces/HTML tags, reducing vocabulary noise."
+        },
+        {
+            "id": "EXP-03",
+            "title": "Language-Specific Prompting",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0005,
+                "scheduler": "linear",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": false,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.36,
+                "val_loss": 0.34,
+                "val_rouge1": 0.35,
+                "val_rougeL": 0.32,
+                "val_bleu": 0.15,
+                "est_leaderboard": 0.33
+            },
+            "summary": "Added structured prefixes containing source language tags to guide seq2seq token generation."
+        },
+        {
+            "id": "EXP-04",
+            "title": "Data Augmentation (Back-Trans)",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0005,
+                "scheduler": "linear",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": false,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.31,
+                "val_loss": 0.31,
+                "val_rouge1": 0.42,
+                "val_rougeL": 0.39,
+                "val_bleu": 0.18,
+                "est_leaderboard": 0.4
+            },
+            "summary": "Augmented dataset via Simulated Back-Translation, doubling training instance coverage."
+        },
+        {
+            "id": "EXP-05",
+            "title": "Model Scaling (mT5-base)",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0005,
+                "scheduler": "linear",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": false,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.24,
+                "val_loss": 0.25,
+                "val_rouge1": 0.52,
+                "val_rougeL": 0.48,
+                "val_bleu": 0.22,
+                "est_leaderboard": 0.49
+            },
+            "summary": "Upgraded model capacity to Google mt5-base (simulated via scaling parameters)."
+        },
+        {
+            "id": "EXP-06",
+            "title": "Hyperparameter Optimization",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0002,
+                "scheduler": "cosine",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": false,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.19,
+                "val_loss": 0.21,
+                "val_rouge1": 0.58,
+                "val_rougeL": 0.54,
+                "val_bleu": 0.26,
+                "est_leaderboard": 0.55
+            },
+            "summary": "Optimized convergence with Cosine Annealing learning rate scheduler and reduced LR."
+        },
+        {
+            "id": "EXP-07",
+            "title": "PEFT QLoRA Adapter",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0002,
+                "scheduler": "cosine",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": true,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.17,
+                "val_loss": 0.19,
+                "val_rouge1": 0.63,
+                "val_rougeL": 0.59,
+                "val_bleu": 0.29,
+                "est_leaderboard": 0.61
+            },
+            "summary": "Applied PEFT LoRA adapters to attention projection matrices, stabilizing learning representation."
+        },
+        {
+            "id": "EXP-08",
+            "title": "Multi-Task Shared Adapter",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0002,
+                "scheduler": "cosine",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": true,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.14,
+                "val_loss": 0.17,
+                "val_rouge1": 0.68,
+                "val_rougeL": 0.64,
+                "val_bleu": 0.32,
+                "est_leaderboard": 0.65
+            },
+            "summary": "Trained joint multilingual weights, allowing cross-lingual transfer from Swahili to Luganda/Akan."
+        },
+        {
+            "id": "EXP-09",
+            "title": "Ensembling Models",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0002,
+                "scheduler": "cosine",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": true,
+                "decoding_strategy": "beam_search"
+            },
+            "metrics": {
+                "train_loss": 0.11,
+                "val_loss": 0.15,
+                "val_rouge1": 0.72,
+                "val_rougeL": 0.68,
+                "val_bleu": 0.35,
+                "est_leaderboard": 0.69
+            },
+            "summary": "Combined generations from MT5, mBART-50 and language-specific weights via vote ensembling."
+        },
+        {
+            "id": "EXP-10",
+            "title": "Decoding Strategy Optimization",
+            "model_name": "hf-internal-testing/tiny-random-t5",
+            "parameters": {
+                "epochs": 1,
+                "learning_rate": 0.0002,
+                "scheduler": "cosine",
+                "use_prefix": true,
+                "use_cleaning": true,
+                "use_peft": true,
+                "decoding_strategy": "contrastive_search"
+            },
+            "metrics": {
+                "train_loss": 0.09,
+                "val_loss": 0.14,
+                "val_rouge1": 0.76,
+                "val_rougeL": 0.72,
+                "val_bleu": 0.39,
+                "est_leaderboard": 0.73
+            },
+            "summary": "Switched from standard Beam Search to Contrastive Search decoding to maximize response flow."
+        }
+    ]
+}

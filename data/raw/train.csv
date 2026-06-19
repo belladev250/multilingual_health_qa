@@ -1,0 +1,121 @@
+ID,Question,Answer,Language
+TRAIN_0000,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho? ?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0001,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0002,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0003,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0004,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0005,Obubonero obw'akabi mu lubuto kuki?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0006,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0007,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0008,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho? ?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0009,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana. Asante.",Kiswahili
+TRAIN_0010,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0011,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0012,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0013,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0014,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria? ?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0015,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0016,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0017,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0018,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria? ?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana. Asante.",Kiswahili
+TRAIN_0019,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0020,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0021,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0022,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria? ?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0023,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0024,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho? ?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0025,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0026,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል? ?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0027,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0028,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0029,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0030,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0031,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0032,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል? ?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0033,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana. Asante.",Kiswahili
+TRAIN_0034,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0035,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0036,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0037,Obubonero obw'akabi mu lubuto kuki?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0038,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0039,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0040,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0041,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0042,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0043,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0044,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0045,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja. Asante.",Kiswahili
+TRAIN_0046,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho? ?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0047,Obubonero obw'akabi mu lubuto kuki?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0048,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል? ?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0049,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0050,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0051,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana. Asante.",Kiswahili
+TRAIN_0052,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0053,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0054,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja. Asante.",Kiswahili
+TRAIN_0055,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0056,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0057,Obubonero obw'akabi mu lubuto kuki?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0058,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0059,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0060,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል? ?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0061,Obubonero obw'akabi mu lubuto kuki?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0062,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0063,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja. Asante.",Kiswahili
+TRAIN_0064,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0065,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0066,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0067,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0068,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0069,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0070,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0071,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0072,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0073,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0074,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0075,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0076,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0077,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0078,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0079,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0080,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0081,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0082,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0083,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0084,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0085,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0086,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0087,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0088,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria? ?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0089,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0090,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja. Asante.",Kiswahili
+TRAIN_0091,"Je, ni dalili gani za hatari wakati wa ujauzito?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0092,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል? ?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0093,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0094,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል? ?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0095,Obubonero obw'akabi mu lubuto kuki?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0096,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho? ?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0097,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0098,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0099,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana. Asante.",Kiswahili
+TRAIN_0100,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba? ?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0101,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0102,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0103,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0104,Nifanye nini kumlinda mtoto mchanga dhidi ya malaria? ?,"Hakikisha mtoto analala chini ya chandarua kilichotiwa dawa, na uweke mazingira ya nyumbani safi ili kuzuia mbu kuzaliana.",Kiswahili
+TRAIN_0105,Nnyonnyola ebikolebwa okutangira siriimu mu baana?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0106,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው? ?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0107,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0108,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0109,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
+TRAIN_0110,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0111,አዲስ የተወለደ ልጅን ከወባ በሽታ እንዴት መከላከል ይቻላል?,ህፃኑ በአልጋ አጎበር ውስጥ እንዲተኛ ማድረግ እና በአካባቢው ላይ የቆመ ውሃ እንዳይኖር በማድረግ የወባ ትንኝ መራባትን መከላከል ይቻላል።,Amharic
+TRAIN_0112,"Je, ni dalili gani za hatari wakati wa ujauzito? ?","Dalili za hatari ni pamoja na kuvuja damu, maumivu makali ya tumbo, kuvimba uso au mikono, na homa kali. Tafadhali nenda kliniki mara moja.",Kiswahili
+TRAIN_0113,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0114,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0115,በእርግዝና ወቅት አደገኛ ምልክቶች ምንድን ናቸው?,ከባድ የሆድ ህመም፣ ደም መፍሰስ፣ የእጅና የፊት እብጠት፣ እና ከፍተኛ ትኩሳት አደገኛ ምልክቶች ናቸው። በአስቸኳይ ወደ ህክምና ተቋም ይሂዱ።,Amharic
+TRAIN_0116,Obubonero obw'akabi mu lubuto kuki? ?,"Obubonero obw'akabi mwe muli okutonnya omusaayi, omutwe okulumya ennyo, okuzimba ebigere, n'omusujja ogw'amaanyi. Genda mu ddwaaliro mangu.",Luganda
+TRAIN_0117,Dɛn nkyerɛwee na ɛkyerɛ sɛ nyinsɛn mu bɔne bi reba?,"Sɛ mogya fi wo mu, wo tirim yɛ wo yaw dendeenden, wo nan anaa w'anim hon, anaa wanya yaw kɛse a, kɔ ayaresabea ntɛm ara.",Akan
+TRAIN_0118,Nnyonnyola ebikolebwa okutangira siriimu mu baana? ?,Okutangira okusiiga siriimu okuva ku maama okudda ku mwana (PMTCT) kusinga kukolebwa mu kukozesa eddagala lya ARVs mu budde bw'okusaba n'okuzaala.,Luganda
+TRAIN_0119,Mɛyɛ dɛn asɔ m'abaa foforɔ no ho afiri asramm mmoawa ho?,"Ma abofra no mda tumpan a yɛde nnuruyɛ ho mu, na tew wo fie ho na nsuo antan hɔ a mmoa bɛwo mu.",Akan
