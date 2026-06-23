@@ -66,11 +66,25 @@ model, tokenizer = load_model_and_tokenizer(
 
 # %%
 DATA_DIR = os.path.join(repo_root, "data/raw")
-train_path = os.path.join(DATA_DIR, "train.csv")
+
+# Prioritize real uppercase files on Linux/Colab
+real_train_path = os.path.join(DATA_DIR, "Train.csv")
+real_test_path = os.path.join(DATA_DIR, "Test.csv")
+mock_train_path = os.path.join(DATA_DIR, "train.csv")
+mock_test_path = os.path.join(DATA_DIR, "test.csv")
+
+# Clean up old mock files if real ones are present to prevent Linux case mismatch
+if os.path.exists(real_train_path) and os.path.exists(mock_train_path):
+    os.remove(mock_train_path)
+if os.path.exists(real_test_path) and os.path.exists(mock_test_path):
+    os.remove(mock_test_path)
+
+train_path = real_train_path if os.path.exists(real_train_path) else mock_train_path
 
 if not os.path.exists(train_path):
     from src.data_preprocessing import generate_mock_datasets
     generate_mock_datasets(DATA_DIR)
+    train_path = mock_train_path
 
 df_all = pd.read_csv(train_path)
 
@@ -135,12 +149,11 @@ for dec_strat in ["greedy", "beam_search", "nucleus_sampling", "contrastive_sear
 # according to the competition instructions.
 
 # %%
-test_csv_path = os.path.join(DATA_DIR, "test.csv")
-if not os.path.exists(test_csv_path):
-    # Fallback to test if lowercase test.csv doesn't exist
-    test_csv_path = os.path.join(DATA_DIR, "Test.csv")
+real_test_path = os.path.join(DATA_DIR, "Test.csv")
+mock_test_path = os.path.join(DATA_DIR, "test.csv")
 
-test_df = pd.read_csv(test_csv_path).head(5)
+test_csv_path = real_test_path if os.path.exists(real_test_path) else mock_test_path
+test_df = pd.read_csv(test_csv_path)
 submission_path = os.path.join(repo_root, "data/processed/zindi_submission.csv")
 os.makedirs(os.path.dirname(submission_path), exist_ok=True)
 
