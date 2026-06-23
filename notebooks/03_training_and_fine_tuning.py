@@ -8,14 +8,34 @@
 # ---
 
 # %%
+# Google Colab Setup (Runs automatically if in Google Colab environment)
 import os
 import sys
+
+try:
+    import google.colab
+    IN_COLAB = True
+except ImportError:
+    IN_COLAB = False
+
+if IN_COLAB:
+    print("Detected Google Colab environment. Setting up workspace...")
+    if not os.path.exists("multilingual_health_qa"):
+        os.system("git clone https://github.com/belladev250/multilingual_health_qa.git")
+    os.chdir("multilingual_health_qa")
+    os.system("pip install -r requirements.txt")
+    print("Colab workspace configured successfully!")
+
 import pandas as pd
 import numpy as np
 import torch
 
-# Align paths to make imports seamless
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), '..')))
+# Align paths to make imports seamless from both notebooks/ and repository root
+repo_root = os.path.abspath(os.getcwd())
+if not os.path.exists(os.path.join(repo_root, "src")):
+    repo_root = os.path.abspath(os.path.join(repo_root, ".."))
+sys.path.append(repo_root)
+
 from src.model import load_model_and_tokenizer
 from src.training import train_model
 from src.inference import generate_answer, generate_submission
@@ -26,9 +46,13 @@ from src.inference import generate_answer, generate_submission
 # This trains ~1-2% of total parameters, optimizing GPU usage and reducing overfitting.
 
 # %%
+# By default, we use a tiny random model for quick verification/smoke tests.
+# For full training on the real dataset, change this to "google/mt5-small" or "google/mt5-base".
 MODEL_NAME = "hf-internal-testing/tiny-random-t5" 
 
 model, tokenizer = load_model_and_tokenizer(
+
+
     model_name=MODEL_NAME,
     use_peft=True,  # Enable PEFT LoRA!
     lora_r=8,
@@ -41,7 +65,7 @@ model, tokenizer = load_model_and_tokenizer(
 # We load the processed datasets. If not present, we generate mock data.
 
 # %%
-DATA_DIR = "../data/raw"
+DATA_DIR = os.path.join(repo_root, "data/raw")
 train_path = os.path.join(DATA_DIR, "train.csv")
 
 if not os.path.exists(train_path):
@@ -65,10 +89,11 @@ print(f"Data split successfully. Train size: {len(train_df)} | Val size: {len(va
 # We execute standard seq2seq training using the `train_model` engine.
 
 # %%
-OUTPUT_DIR = "../experiments/outputs_checkpoint"
+OUTPUT_DIR = os.path.join(repo_root, "experiments/outputs_checkpoint")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# For speed during presentation/demo, we use small limits
+# For speed during presentation/demo, we use small limits (smoke-test slice)
+# For a full real training run, increase the head slice (e.g., train_df, val_df) and epochs
 train_result, eval_metrics = train_model(
     model=model,
     tokenizer=tokenizer,
@@ -110,9 +135,14 @@ for dec_strat in ["greedy", "beam_search", "nucleus_sampling", "contrastive_sear
 # according to the competition instructions.
 
 # %%
-test_df = pd.read_csv(os.path.join(DATA_DIR, "test.csv")).head(5)
-submission_path = "../data/processed/zindi_submission.csv"
-os.makedirs("../data/processed", exist_ok=True)
+test_csv_path = os.path.join(DATA_DIR, "test.csv")
+if not os.path.exists(test_csv_path):
+    # Fallback to test if lowercase test.csv doesn't exist
+    test_csv_path = os.path.join(DATA_DIR, "Test.csv")
+
+test_df = pd.read_csv(test_csv_path).head(5)
+submission_path = os.path.join(repo_root, "data/processed/zindi_submission.csv")
+os.makedirs(os.path.dirname(submission_path), exist_ok=True)
 
 sub_df = generate_submission(
     model=model,

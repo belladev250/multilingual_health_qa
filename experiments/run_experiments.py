@@ -123,7 +123,12 @@ def run_all_experiments(smoke_test: bool = True):
         print("Real Zindi dataset detected. Skipping mock dataset generation to preserve real data.")
     
     train_df = pd.read_csv(os.path.join(data_dir, "train.csv"))
+    if "subset" in train_df.columns:
+        train_df = train_df.rename(columns={"input": "Question", "output": "Answer", "subset": "Language"})
+        
     test_df = pd.read_csv(os.path.join(data_dir, "test.csv"))
+    if "subset" in test_df.columns:
+        test_df = test_df.rename(columns={"input": "Question", "output": "Answer", "subset": "Language"})
     
     # Train / Val Split
     np.random.seed(42)

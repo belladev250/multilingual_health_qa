@@ -1,9 +1,8 @@
 # Multilingual Health Question Answering in Low-Resource African Languages: A Parameter-Efficient Fine-Tuning and Decoding Optimization Approach
 
-**Author**: [Your Full Name]  
+**Author**: Bella Melissa Ineza  
 **Course**: Machine Learning Techniques I (Final Course Project)  
 **Date**: June 2026  
-**Institution**: [Your University Department]  
 **IEEE Citation Format**
 
 ---

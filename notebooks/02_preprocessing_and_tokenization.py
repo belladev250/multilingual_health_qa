@@ -8,13 +8,33 @@
 # ---
 
 # %%
+# Google Colab Setup (Runs automatically if in Google Colab environment)
 import os
 import sys
+
+try:
+    import google.colab
+    IN_COLAB = True
+except ImportError:
+    IN_COLAB = False
+
+if IN_COLAB:
+    print("Detected Google Colab environment. Setting up workspace...")
+    if not os.path.exists("multilingual_health_qa"):
+        os.system("git clone https://github.com/belladev250/multilingual_health_qa.git")
+    os.chdir("multilingual_health_qa")
+    os.system("pip install -r requirements.txt")
+    print("Colab workspace configured successfully!")
+
 import pandas as pd
 from transformers import AutoTokenizer
 
-# Align paths to make imports seamless
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), '..')))
+# Align paths to make imports seamless from both notebooks/ and repository root
+repo_root = os.path.abspath(os.getcwd())
+if not os.path.exists(os.path.join(repo_root, "src")):
+    repo_root = os.path.abspath(os.path.join(repo_root, ".."))
+sys.path.append(repo_root)
+
 from src.data_preprocessing import clean_text, apply_language_prefix, simulate_back_translation
 
 # %% [markdown]
