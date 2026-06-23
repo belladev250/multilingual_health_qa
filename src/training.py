@@ -1,7 +1,7 @@
 import os
 import torch
 import numpy as np
-from transformers import Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
+from transformers import Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq, IntervalStrategy
 from src.dataset import MultilingualQADataset
 from src.evaluation import compute_nlp_metrics
 
@@ -69,7 +69,7 @@ def train_model(model, tokenizer, train_df, val_df, output_dir: str,
         weight_decay=0.01,
         logging_dir=os.path.join(output_dir, "logs"),
         logging_steps=10,
-        evaluation_strategy="epoch",
+        eval_strategy=IntervalStrategy.EPOCH,
         save_strategy="epoch",
         save_total_limit=1,
         predict_with_generate=True,
