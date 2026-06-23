@@ -112,9 +112,15 @@ def run_all_experiments(smoke_test: bool = True):
     print(f"Starting Multilingual Health QA Experimentation (Smoke Test = {smoke_test})")
     print("==================================================")
     
-    # Setup directories and mock data
+    # Setup directories and mock data if missing
     data_dir = "/Users/pixeleyeblue/.gemini/antigravity/scratch/multilingual_health_qa/data/raw"
-    generate_mock_datasets(data_dir)
+    os.makedirs(data_dir, exist_ok=True)
+    train_path = os.path.join(data_dir, "train.csv")
+    if not os.path.exists(train_path) or os.path.getsize(train_path) < 50000:
+        print("Mock data missing or small. Generating mock datasets...")
+        generate_mock_datasets(data_dir)
+    else:
+        print("Real Zindi dataset detected. Skipping mock dataset generation to preserve real data.")
     
     train_df = pd.read_csv(os.path.join(data_dir, "train.csv"))
     test_df = pd.read_csv(os.path.join(data_dir, "test.csv"))

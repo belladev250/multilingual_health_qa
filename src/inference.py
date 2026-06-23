@@ -69,8 +69,8 @@ def generate_submission(model, tokenizer, test_df: pd.DataFrame,
     
     for idx, row in tqdm(test_df.iterrows(), total=len(test_df), desc="Inference"):
         q_id = row.get("ID")
-        question = row.get("Question", "")
-        language = row.get("Language", "")
+        question = row.get("Question", row.get("input", ""))
+        language = row.get("Language", row.get("subset", ""))
         
         pred_ans = generate_answer(
             model=model,

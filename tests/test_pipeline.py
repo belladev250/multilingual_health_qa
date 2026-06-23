@@ -18,7 +18,9 @@ class TestMultilingualQAPipeline(unittest.TestCase):
         os.makedirs(cls.output_dir, exist_ok=True)
         
         # Generate mock datasets if they don't exist
-        generate_mock_datasets(cls.data_dir)
+        train_path = os.path.join(cls.data_dir, "train.csv")
+        if not os.path.exists(train_path) or os.path.getsize(train_path) < 50000:
+            generate_mock_datasets(cls.data_dir)
         
         # Use a super-tiny random model for testing to avoid huge model downloads
         cls.model_name = "hf-internal-testing/tiny-random-t5"

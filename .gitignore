@@ -34,7 +34,7 @@ __pycache__/
 # Data and Outputs (ignore large datasets and test outputs)
 tests/output/
 data/processed/
-# data/raw/ # Uncomment if you want to ignore raw Zindi files
+data/raw/
 
 # Model checkpoints and logs
 tensorboard/

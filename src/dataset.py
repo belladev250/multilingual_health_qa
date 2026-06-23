@@ -23,8 +23,8 @@ class MultilingualQADataset(Dataset):
         row = self.df.iloc[idx]
         
         # Load and clean question
-        question = clean_text(row.get("Question", ""))
-        language = row.get("Language", "")
+        question = clean_text(row.get("Question", row.get("input", "")))
+        language = row.get("Language", row.get("subset", ""))
         
         # Apply language-specific prefix formatting (EXP-03)
         if self.use_prefix and language:
@@ -48,7 +48,7 @@ class MultilingualQADataset(Dataset):
         
         if not self.is_test:
             # Load and clean answer
-            answer = clean_text(row.get("Answer", ""))
+            answer = clean_text(row.get("Answer", row.get("output", "")))
             
             # Tokenize target sequence
             with self.tokenizer.as_target_tokenizer():
