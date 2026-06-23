@@ -12,7 +12,7 @@ This project aims to fine-tune pre-trained multilingual sequence-to-sequence lan
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Answering health-related questions in low-resource African languages presents unique challenges due to:
 - **Agglutinative Morphology**: Languages like Luganda and Kiswahili contain rich prefix/suffix structures, causing massive sub-word fracturing in standard tokenizers.
@@ -23,7 +23,7 @@ This repository implements a rigorous research workflow with **10 distinct exper
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 multilingual_health_qa/
@@ -55,7 +55,7 @@ multilingual_health_qa/
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Local Environment Setup
 
@@ -91,7 +91,7 @@ For real-world competition training, download the dataset files from Zindi and o
 
 ---
 
-## 🚀 Running the Pipeline
+##  Running the Pipeline
 
 ### Running Automated Tests
 To verify data preparation, dataset loading, LoRA insertion, and evaluation metrics, execute:
@@ -112,7 +112,7 @@ This will output comparative progress plots inside `experiments/plots/experiment
 
 ---
 
-## 🔬 The 10-Experiment Roadmap
+##  The 10-Experiment Roadmap
 
 This repository systematically implements and evaluates:
 
@@ -129,7 +129,7 @@ This repository systematically implements and evaluates:
 
 ---
 
-## 📄 Academic Deliverables
+##  Academic Deliverables
 
 Our academic draft paper is located at `docs/StudentName_FinalProject_Draft.md` written in IEEE paper format. It covers:
 - **Comprehensive EDA Findings** (orthographic and sub-word fracture analysis).
@@ -139,7 +139,7 @@ Our academic draft paper is located at `docs/StudentName_FinalProject_Draft.md` 
 
 ---
 
-## 💡 Google Colab Integration
+##  Google Colab Integration
 
 To run on free-tier Colab, simply open the Python files in the `notebooks/` directory which are structured with standard `# %%` code cell block syntax. They function natively as Jupyter Notebooks inside modern IDEs (VS Code, Cursor) and can be easily run in Colab by uploading them or utilizing the badge link at the top of this document.
 
