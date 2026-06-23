@@ -58,7 +58,9 @@ def generate_submission(model, tokenizer, test_df: pd.DataFrame,
                         decoding_strategy: str = "beam_search", max_length: int = 128):
     """
     Iterates through the test dataset, generates answers for each question,
-    and writes out a submission CSV compatible with Zindi.
+    and writes out a submission CSV compatible with Zindi's actual schema:
+    ID, TargetRLF1, TargetR1F1, TargetLLM.
+    Each of the three target columns must contain the same predicted answer text.
     """
     print(f"Generating batch predictions using strategy: {decoding_strategy}...")
     results = []
@@ -84,10 +86,14 @@ def generate_submission(model, tokenizer, test_df: pd.DataFrame,
         
         results.append({
             "ID": q_id,
-            "Answer": pred_ans
+            "TargetRLF1": pred_ans,
+            "TargetR1F1": pred_ans,
+            "TargetLLM": pred_ans
         })
         
     submission_df = pd.DataFrame(results)
-    submission_df.to_csv(output_csv_path, index=False)
-    print(f"Submission generated successfully and saved to: {output_csv_path}")
+    # Ensure correct column order
+    submission_df = submission_df[["ID", "TargetRLF1", "TargetR1F1", "TargetLLM"]]
+    submission_df.to_csv(output_csv_path, index=False, encoding="utf-8")
+    print(f"✅ Submission generated successfully and saved to: {output_csv_path}")
     return submission_df

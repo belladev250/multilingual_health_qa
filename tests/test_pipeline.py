@@ -91,7 +91,7 @@ class TestMultilingualQAPipeline(unittest.TestCase):
         
         self.assertTrue(os.path.exists(output_csv))
         self.assertEqual(len(sub_df), 3)
-        self.assertListEqual(list(sub_df.columns), ["ID", "Answer"])
+        self.assertListEqual(list(sub_df.columns), ["ID", "TargetRLF1", "TargetR1F1", "TargetLLM"])
 
 if __name__ == "__main__":
     unittest.main()
