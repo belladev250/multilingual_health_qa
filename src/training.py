@@ -79,16 +79,24 @@ def train_model(model, tokenizer, train_df, val_df, output_dir: str,
         report_to="none" # Turn off external logging integrations for reproducibility
     )
 
-    # Initialize trainer
-    trainer = Seq2SeqTrainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=val_dataset,
-        tokenizer=tokenizer,
-        data_collator=data_collator,
-        compute_metrics=compute_metrics
-    )
+    # Initialize trainer with version-robust arguments
+    import inspect
+    trainer_kwargs = {
+        "model": model,
+        "args": training_args,
+        "train_dataset": train_dataset,
+        "eval_dataset": val_dataset,
+        "data_collator": data_collator,
+        "compute_metrics": compute_metrics
+    }
+    # Check if processing_class is preferred in the Trainer's signature
+    trainer_init_sig = inspect.signature(Seq2SeqTrainer.__init__)
+    if "processing_class" in trainer_init_sig.parameters:
+        trainer_kwargs["processing_class"] = tokenizer
+    else:
+        trainer_kwargs["tokenizer"] = tokenizer
+
+    trainer = Seq2SeqTrainer(**trainer_kwargs)
 
     print("Starting fine-tuning...")
     train_result = trainer.train()
