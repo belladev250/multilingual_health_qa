@@ -51,14 +51,13 @@ class MultilingualQADataset(Dataset):
             answer = clean_text(row.get("Answer", row.get("output", "")))
             
             # Tokenize target sequence
-            with self.tokenizer.as_target_tokenizer():
-                target_inputs = self.tokenizer(
-                    answer,
-                    max_length=self.max_target_length,
-                    padding="max_length",
-                    truncation=True,
-                    return_tensors="pt"
-                )
+            target_inputs = self.tokenizer(
+                text_target=answer,
+                max_length=self.max_target_length,
+                padding="max_length",
+                truncation=True,
+                return_tensors="pt"
+            )
                 
             labels = target_inputs["input_ids"].squeeze(0)
             
