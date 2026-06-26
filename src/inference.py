@@ -35,6 +35,7 @@ def generate_answer(model, tokenizer, question: str, language: str = "",
     elif decoding_strategy == "contrastive_search":
         gen_kwargs["penalty_alpha"] = 0.6
         gen_kwargs["top_k"] = 4
+        gen_kwargs["trust_remote_code"] = True
     elif decoding_strategy == "nucleus_sampling":
         gen_kwargs["do_sample"] = True
         gen_kwargs["top_p"] = 0.92
