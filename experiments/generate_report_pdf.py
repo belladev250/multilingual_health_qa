@@ -302,7 +302,7 @@ def render_table(pdf, headers, rows, header_color, primary_color, text_color):
 
 if __name__ == "__main__":
     project_dir = "/Users/pixeleyeblue/.gemini/antigravity/scratch/multilingual_health_qa"
-    md_file = os.path.join(project_dir, "docs/StudentName_FinalProject_Draft.md")
+    md_file = os.path.join(project_dir, "docs/BellaMelissaIneza_FinalProject_Draft.md")
     pdf_file = os.path.join(project_dir, "docs/BellaMelissaIneza_FinalProject.pdf")
     
     if os.path.exists(md_file):

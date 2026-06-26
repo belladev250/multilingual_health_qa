@@ -49,7 +49,7 @@ multilingual_health_qa/
 │   ├── tracking_log.json     # JSON registry tracking all experimental metrics
 │   └── plots/                # Automatically generated progression charts and learning curves
 └── docs/                     # Academic deliverables and IEEE Report
-    ├── StudentName_FinalProject_Draft.md  # Comprehensive research paper draft
+    ├── BellaMelissaIneza_FinalProject_Draft.md  # Comprehensive research paper draft
     └── figures/              # Figures and plots for the IEEE paper
 ```
 
@@ -131,7 +131,7 @@ This repository systematically implements and evaluates:
 
 ##  Academic Deliverables
 
-Our academic draft paper is located at `docs/StudentName_FinalProject_Draft.md` written in IEEE paper format. It covers:
+Our academic draft paper is located at `docs/BellaMelissaIneza_FinalProject_Draft.md` written in IEEE paper format. It covers:
 - **Comprehensive EDA Findings** (orthographic and sub-word fracture analysis).
 - **Technical Methodology** (parameter counts, optimization, and PEFT mathematical formulations).
 - **Zindi Leaderboard Evaluation & Analysis** (detailed results table mapping ROUGE scores across all 10 experiments).
