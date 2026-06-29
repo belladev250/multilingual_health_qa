@@ -47,10 +47,8 @@ multilingual_health_qa/
 ├── experiments/              # Experiment config, logs, and progression plotting
 │   ├── run_experiments.py    # Auto-runner script executing the 10 sequential experiments
 │   ├── tracking_log.json     # JSON registry tracking all experimental metrics
-│   └── plots/                # Automatically generated progression charts and learning curves
-└── docs/                     # Academic deliverables and IEEE Report
-    ├── BellaMelissaIneza_FinalProject_Draft.md  # Comprehensive research paper draft
-    └── figures/              # Figures and plots for the IEEE paper
+    └── plots/                # Automatically generated progression charts and learning curves
+
 ```
 
 ---
